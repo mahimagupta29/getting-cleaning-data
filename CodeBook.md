@@ -39,7 +39,7 @@ Dataset downloaded and extracted under the folder called UCI HAR Dataset
  
  * contains train data of 21/30 volunteer subjects being observed
  
- *x_train <- test/X_train.txt : 7352 rows, 561 columns
+ * x_train <- test/X_train.txt : 7352 rows, 561 columns
  
  * contains recorded features train data
  
@@ -49,7 +49,7 @@ Dataset downloaded and extracted under the folder called UCI HAR Dataset
 
 
 
-#*Merges the training and the test sets to create one data set*
+###### *Merges the training and the test sets to create one data set*
 
 X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function
 
@@ -61,19 +61,19 @@ Merged_Data (10299 rows, 563 column) is created by merging Subject, Y and X usin
 
 
 
-#*Extracts only the measurements on the mean and standard deviation for each measurement*
+###### *Extracts only the measurements on the mean and standard deviation for each measurement*
 
 TidyData (10299 rows, 88 columns) is created by subsetting Merged_Data, selecting only columns: subject, code and the measurements on the mean and standard deviation (std) for each measurement
 
 
 
-#*Uses descriptive activity names to name the activities in the data set*
+###### *Uses descriptive activity names to name the activities in the data set*
 
 Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable
 
 
 
-#*Appropriately labels the data set with descriptive variable names*
+###### *Appropriately labels the data set with descriptive variable names*
 
 code column in TidyData renamed into activities
 
@@ -91,26 +91,26 @@ All start with character t in column’s name replaced by Time
 
 
 
-#*From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject*
+###### *From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject*
 
 FinalData (180 rows, 88 columns) is created by sumarizing TidyData taking the means of each variable for each activity and each subject, after groupped by subject and activity.
 
 Export FinalData into FinalData.txt file.
 
 
-#README
+###### README
 
 Peer-graded Assignment: Getting and Cleaning Data Course Project
 
 This repository is a Nunno Nugroho submission for Getting and Cleaning Data course project. It has the instructions on how to run analysis on Human Activity recognition dataset.
 
 
-#Dataset
+###### Dataset
 
 Human Activity Recognition Using Smartphones
 
 
-#Files
+# Files
 
 CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
 
