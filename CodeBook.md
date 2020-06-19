@@ -36,10 +36,10 @@ Dataset downloaded and extracted under the folder called UCI HAR Dataset
 
 ###### *Merges the training and the test sets to create one data set*
 
-X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function
-Y (10299 rows, 1 column) is created by merging y_train and y_test using rbind() function
-Subject (10299 rows, 1 column) is created by merging subject_train and subject_test using rbind() function
-Merged_Data (10299 rows, 563 column) is created by merging Subject, Y and X using cbind() function
+* X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function
+* Y (10299 rows, 1 column) is created by merging y_train and y_test using rbind() function
+* Subject (10299 rows, 1 column) is created by merging subject_train and subject_test using rbind() function
+* Merged_Data (10299 rows, 563 column) is created by merging Subject, Y and X using cbind() function
 
 
 
@@ -80,19 +80,19 @@ FinalData (180 rows, 88 columns) is created by sumarizing TidyData taking the me
 Export FinalData into FinalData.txt file.
 
 
-###### README
+#### README
 
 Peer-graded Assignment: Getting and Cleaning Data Course Project
 
 This repository is a Nunno Nugroho submission for Getting and Cleaning Data course project. It has the instructions on how to run analysis on Human Activity recognition dataset.
 
 
-###### Dataset
+#### Dataset
 
 Human Activity Recognition Using Smartphones
 
 
-# Files
+#### Files
 
 CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
 
