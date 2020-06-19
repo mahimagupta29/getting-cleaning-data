@@ -7,7 +7,7 @@
 * The `README.txt` is the overall desciption about the overall process of how publishers of this dataset did the experiment and got the data result.
 
 
-* The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.*
+* The  `run_analysis.R` script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.*
 
 **Download the dataset:**
 
