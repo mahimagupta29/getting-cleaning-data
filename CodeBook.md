@@ -57,19 +57,13 @@ Entire numbers in code column of the TidyData replaced with corresponding activi
 
 ###### *Appropriately labels the data set with descriptive variable names*
 
-code column in TidyData renamed into activities
-
-All Acc in column’s name replaced by Accelerometer
-
-All Gyro in column’s name replaced by Gyroscope
-
-All BodyBody in column’s name replaced by Body
-
-All Mag in column’s name replaced by Magnitude
-
-All start with character f in column’s name replaced by Frequency
-
-All start with character t in column’s name replaced by Time
+* code column in TidyData renamed into activities
+* All Acc in column’s name replaced by Accelerometer
+* All Gyro in column’s name replaced by Gyroscope
+* All BodyBody in column’s name replaced by Body
+* All Mag in column’s name replaced by Magnitude
+* All start with character f in column’s name replaced by Frequency
+* All start with character t in column’s name replaced by Time
 
 
 
